@@ -5,7 +5,7 @@
 //  Created by Polina Polukhina on 25.06.2025.
 //
 
-import Foundation
+import SwiftUI
 
 final class InitialViewModel: ObservableObject {
 
@@ -14,13 +14,16 @@ final class InitialViewModel: ObservableObject {
 		case loggedIn
 	}
 
+	var wasSet = true
+
 	@Published var state: InitialState = .notAuthorized
 
 	func viewDidAppear() {
 		// get token
 
-		if true {
+		if wasSet {
 			state = .loggedIn
+			wasSet = false
 		} else {
 			state = .notAuthorized
 		}

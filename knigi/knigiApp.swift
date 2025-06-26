@@ -11,7 +11,6 @@ import SwiftUI
 struct knigiApp: App {
     var body: some Scene {
         WindowGroup {
-//			RouterView(content: <#T##() -> View#>)
             InitialView()
         }
     }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
 
+	@EnvironmentObject private var router: Router
 	@StateObject var viewModel: ProfileViewModel = .init()
 
     var body: some View {
@@ -35,6 +36,7 @@ struct ProfileView: View {
 
 				Button {
 					viewModel.logOut()
+					router.popToRoot()
 				} label: {
 					Text("Выйти")
 				}

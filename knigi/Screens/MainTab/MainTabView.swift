@@ -14,6 +14,8 @@ struct MainTabView: View {
 		var id: Self { self }
 
 		case main
+		case clubs
+		case books
 		case profile
 	}
 
@@ -26,11 +28,22 @@ struct MainTabView: View {
 						.tabItem {
 							Label("Main", systemImage: "1.circle")
 						}
+				case .clubs:
+					Text("clubs")
+						.tabItem {
+							Label("Clubs", systemImage: "2.circle")
+						}
+
+				case .books:
+					Text("books")
+						.tabItem {
+							Label("Books", systemImage: "3.circle")
+						}
 
 				case .profile:
 					ProfileView()
 						.tabItem {
-							Label("Profile", systemImage: "2.circle")
+							Label("Profile", systemImage: "4.circle")
 						}
 				}
 			}
