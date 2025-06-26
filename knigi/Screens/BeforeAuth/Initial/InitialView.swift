@@ -27,5 +27,5 @@ struct InitialView: View {
 }
 
 #Preview {
-    InitialView()
+	InitialView()
 }

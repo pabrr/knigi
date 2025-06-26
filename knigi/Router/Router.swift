@@ -9,6 +9,7 @@ import SwiftUI
 
 enum Route: Hashable {
 	case goToBookDetails(BookDetailsViewModel)
+	case goToBookClubDetails(BookDetailsViewModel)
 }
 
 @MainActor
@@ -20,6 +21,8 @@ final class Router: ObservableObject {
 	func view(for route: Route) -> some View {
 		switch route {
 		case .goToBookDetails(let viewModel):
+			BookDetailsView(viewModel: viewModel)
+		case .goToBookClubDetails(let viewModel):
 			BookDetailsView(viewModel: viewModel)
 		}
 	}
@@ -40,4 +43,3 @@ final class Router: ObservableObject {
 	}
 
 }
-

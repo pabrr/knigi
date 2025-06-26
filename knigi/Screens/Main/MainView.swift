@@ -22,13 +22,7 @@ struct MainView: View {
 				.listRowBackground(Color.clear)
 				
 				Section("Книжные клубы") {
-					ScrollView {
-						LazyVStack(alignment: .leading) {
-							ForEach(viewModel.someFiltered, id: \.self) { i in
-								Text(i)
-							}
-						}
-					}
+					BookClubListView(viewModel: .init(bookClubList: viewModel.bookClubList))
 				}
 			}
 			.navigationTitle("Мои клубы")

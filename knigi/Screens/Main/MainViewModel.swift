@@ -10,14 +10,28 @@ import SwiftUI
 final class MainViewModel: ObservableObject {
 
 	@Published var searchText: String = ""
-
-	let some: [String] = Array(0...1000).map { String($0) }
-	var someFiltered: [String] {
+	@Published var bookClubList: [BookClubEntity] = []
+	var filteredBookClubList: [BookClubEntity] {
 		if searchText.isEmpty {
-			return some
+			return bookClubList
 		} else {
-			return some.filter { $0.contains(searchText) }
+			return bookClubList.filter {
+				return $0.title.lowercased().contains(searchText.lowercased()) ||
+				$0.ownerId.lowercased().contains(searchText.lowercased()) ||
+				$0.description.lowercased().contains(searchText.lowercased())
+			}
 		}
+	}
+
+	init(searchText: String = "", bookClubList: [BookClubEntity] = []) {
+		self.searchText = searchText
+		self.bookClubList = [
+			.init(id: "1", title: "Книжный клуб 1", description: "", createdAt: Date(), updatedAt: Date(), ownerId: "Полина", state: .active),
+			.init(id: "2", title: "Книжный клуб 1", description: "", createdAt: Date(), updatedAt: Date(), ownerId: "Настя", state: .active),
+			.init(id: "3", title: "Книжный клуб 1", description: "", createdAt: Date(), updatedAt: Date(), ownerId: "Полина", state: .active),
+			.init(id: "4", title: "Книжный клуб 1", description: "", createdAt: Date(), updatedAt: Date(), ownerId: "Полина", state: .active),
+			.init(id: "5", title: "Книжный клуб 1", description: "", createdAt: Date(), updatedAt: Date(), ownerId: "Полина", state: .active),
+		]
 	}
 
 }

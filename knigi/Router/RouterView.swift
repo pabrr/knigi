@@ -20,10 +20,10 @@ struct RouterView<Content: View>: View {
 	var body: some View {
 		NavigationStack(path: $router.path) {
 			content
-				.navigationDestination(for: Route.self) {
-					router.view(for: $0)
-				}
 		}
 		.environmentObject(router)
+		.navigationDestination(for: Route.self) {
+			router.view(for: $0)
+		}
 	}
 }
