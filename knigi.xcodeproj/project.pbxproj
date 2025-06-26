@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B1F6973C4B0F6AFCF42E22 /* Pods_knigi_knigiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46624BE23FC9FBDF8127C1FA /* Pods_knigi_knigiUITests.framework */; };
+		728A3BF2E9A8B4D4465B0192 /* Pods_knigiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ECF134C2ABA0FCF7E7D1A1 /* Pods_knigiTests.framework */; };
+		F65F2A37C7470A01B2C80C64 /* Pods_knigi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA50C05162A7B2076572AD9 /* Pods_knigi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8399E5002E0AC1BA00B67D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8399E4E92E0AC1B900B67D54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8399E4F02E0AC1B900B67D54;
+			remoteInfo = knigi;
+		};
+		8399E50A2E0AC1BA00B67D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8399E4E92E0AC1B900B67D54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8399E4F02E0AC1B900B67D54;
+			remoteInfo = knigi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305B4F573415ABE39C2C3D74 /* Pods-knigiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knigiTests.release.xcconfig"; path = "Target Support Files/Pods-knigiTests/Pods-knigiTests.release.xcconfig"; sourceTree = "<group>"; };
+		32FF898D76EA4DAE5AB5D45D /* Pods-knigi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knigi.debug.xcconfig"; path = "Target Support Files/Pods-knigi/Pods-knigi.debug.xcconfig"; sourceTree = "<group>"; };
+		41ECF134C2ABA0FCF7E7D1A1 /* Pods_knigiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knigiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46624BE23FC9FBDF8127C1FA /* Pods_knigi_knigiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knigi_knigiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB1F19095A38E6C783EE501 /* Pods-knigiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knigiTests.debug.xcconfig"; path = "Target Support Files/Pods-knigiTests/Pods-knigiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58C55795DAC3A8FC698AD0C2 /* Pods-knigi-knigiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knigi-knigiUITests.debug.xcconfig"; path = "Target Support Files/Pods-knigi-knigiUITests/Pods-knigi-knigiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73BC655E55A6ECA780725D50 /* Pods-knigi-knigiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knigi-knigiUITests.release.xcconfig"; path = "Target Support Files/Pods-knigi-knigiUITests/Pods-knigi-knigiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8399E4F12E0AC1B900B67D54 /* knigi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = knigi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8399E4FF2E0AC1BA00B67D54 /* knigiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = knigiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8399E5092E0AC1BA00B67D54 /* knigiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = knigiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBA4BEB0B6CFFE52BA4FEC1 /* Pods-knigi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knigi.release.xcconfig"; path = "Target Support Files/Pods-knigi/Pods-knigi.release.xcconfig"; sourceTree = "<group>"; };
+		EAA50C05162A7B2076572AD9 /* Pods_knigi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knigi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8399E4F32E0AC1B900B67D54 /* knigi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = knigi;
+			sourceTree = "<group>";
+		};
+		8399E5022E0AC1BA00B67D54 /* knigiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = knigiTests;
+			sourceTree = "<group>";
+		};
+		8399E50C2E0AC1BA00B67D54 /* knigiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = knigiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8399E4EE2E0AC1B900B67D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65F2A37C7470A01B2C80C64 /* Pods_knigi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399E4FC2E0AC1BA00B67D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728A3BF2E9A8B4D4465B0192 /* Pods_knigiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399E5062E0AC1BA00B67D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B1F6973C4B0F6AFCF42E22 /* Pods_knigi_knigiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8399E4E82E0AC1B900B67D54 = {
+			isa = PBXGroup;
+			children = (
+				8399E4F32E0AC1B900B67D54 /* knigi */,
+				8399E5022E0AC1BA00B67D54 /* knigiTests */,
+				8399E50C2E0AC1BA00B67D54 /* knigiUITests */,
+				8399E4F22E0AC1B900B67D54 /* Products */,
+				A48816A8DB4BAB33F8C1038A /* Pods */,
+				B9FF68870AE94AA1B2122344 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8399E4F22E0AC1B900B67D54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8399E4F12E0AC1B900B67D54 /* knigi.app */,
+				8399E4FF2E0AC1BA00B67D54 /* knigiTests.xctest */,
+				8399E5092E0AC1BA00B67D54 /* knigiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48816A8DB4BAB33F8C1038A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32FF898D76EA4DAE5AB5D45D /* Pods-knigi.debug.xcconfig */,
+				BFBA4BEB0B6CFFE52BA4FEC1 /* Pods-knigi.release.xcconfig */,
+				58C55795DAC3A8FC698AD0C2 /* Pods-knigi-knigiUITests.debug.xcconfig */,
+				73BC655E55A6ECA780725D50 /* Pods-knigi-knigiUITests.release.xcconfig */,
+				4FB1F19095A38E6C783EE501 /* Pods-knigiTests.debug.xcconfig */,
+				305B4F573415ABE39C2C3D74 /* Pods-knigiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9FF68870AE94AA1B2122344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAA50C05162A7B2076572AD9 /* Pods_knigi.framework */,
+				46624BE23FC9FBDF8127C1FA /* Pods_knigi_knigiUITests.framework */,
+				41ECF134C2ABA0FCF7E7D1A1 /* Pods_knigiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8399E4F02E0AC1B900B67D54 /* knigi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8399E5132E0AC1BA00B67D54 /* Build configuration list for PBXNativeTarget "knigi" */;
+			buildPhases = (
+				69998288A6C68C2475D3B959 /* [CP] Check Pods Manifest.lock */,
+				8399E4ED2E0AC1B900B67D54 /* Sources */,
+				8399E4EE2E0AC1B900B67D54 /* Frameworks */,
+				8399E4EF2E0AC1B900B67D54 /* Resources */,
+				04957DD704CD017336D1F1D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8399E4F32E0AC1B900B67D54 /* knigi */,
+			);
+			name = knigi;
+			productName = knigi;
+			productReference = 8399E4F12E0AC1B900B67D54 /* knigi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8399E4FE2E0AC1BA00B67D54 /* knigiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8399E5162E0AC1BA00B67D54 /* Build configuration list for PBXNativeTarget "knigiTests" */;
+			buildPhases = (
+				CBB5C7EEAE602B9A5249C60A /* [CP] Check Pods Manifest.lock */,
+				8399E4FB2E0AC1BA00B67D54 /* Sources */,
+				8399E4FC2E0AC1BA00B67D54 /* Frameworks */,
+				8399E4FD2E0AC1BA00B67D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8399E5012E0AC1BA00B67D54 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8399E5022E0AC1BA00B67D54 /* knigiTests */,
+			);
+			name = knigiTests;
+			productName = knigiTests;
+			productReference = 8399E4FF2E0AC1BA00B67D54 /* knigiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8399E5082E0AC1BA00B67D54 /* knigiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8399E5192E0AC1BA00B67D54 /* Build configuration list for PBXNativeTarget "knigiUITests" */;
+			buildPhases = (
+				4E63B50488C767FE46BD70E0 /* [CP] Check Pods Manifest.lock */,
+				8399E5052E0AC1BA00B67D54 /* Sources */,
+				8399E5062E0AC1BA00B67D54 /* Frameworks */,
+				8399E5072E0AC1BA00B67D54 /* Resources */,
+				5C98C6FE586EC4CE5F1AFF8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8399E50B2E0AC1BA00B67D54 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8399E50C2E0AC1BA00B67D54 /* knigiUITests */,
+			);
+			name = knigiUITests;
+			productName = knigiUITests;
+			productReference = 8399E5092E0AC1BA00B67D54 /* knigiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8399E4E92E0AC1B900B67D54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8399E4F02E0AC1B900B67D54 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8399E4FE2E0AC1BA00B67D54 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8399E4F02E0AC1B900B67D54;
+					};
+					8399E5082E0AC1BA00B67D54 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8399E4F02E0AC1B900B67D54;
+					};
+				};
+			};
+			buildConfigurationList = 8399E4EC2E0AC1B900B67D54 /* Build configuration list for PBXProject "knigi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8399E4E82E0AC1B900B67D54;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8399E4F22E0AC1B900B67D54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8399E4F02E0AC1B900B67D54 /* knigi */,
+				8399E4FE2E0AC1BA00B67D54 /* knigiTests */,
+				8399E5082E0AC1BA00B67D54 /* knigiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8399E4EF2E0AC1B900B67D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399E4FD2E0AC1BA00B67D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399E5072E0AC1BA00B67D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04957DD704CD017336D1F1D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knigi/Pods-knigi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knigi/Pods-knigi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-knigi/Pods-knigi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E63B50488C767FE46BD70E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knigi-knigiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C98C6FE586EC4CE5F1AFF8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knigi-knigiUITests/Pods-knigi-knigiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knigi-knigiUITests/Pods-knigi-knigiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-knigi-knigiUITests/Pods-knigi-knigiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69998288A6C68C2475D3B959 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knigi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB5C7EEAE602B9A5249C60A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knigiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8399E4ED2E0AC1B900B67D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399E4FB2E0AC1BA00B67D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399E5052E0AC1BA00B67D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8399E5012E0AC1BA00B67D54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8399E4F02E0AC1B900B67D54 /* knigi */;
+			targetProxy = 8399E5002E0AC1BA00B67D54 /* PBXContainerItemProxy */;
+		};
+		8399E50B2E0AC1BA00B67D54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8399E4F02E0AC1B900B67D54 /* knigi */;
+			targetProxy = 8399E50A2E0AC1BA00B67D54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8399E5112E0AC1BA00B67D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8399E5122E0AC1BA00B67D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8399E5142E0AC1BA00B67D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FF898D76EA4DAE5AB5D45D /* Pods-knigi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = knigi/knigi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.knigi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		8399E5152E0AC1BA00B67D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBA4BEB0B6CFFE52BA4FEC1 /* Pods-knigi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = knigi/knigi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.knigi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		8399E5172E0AC1BA00B67D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB1F19095A38E6C783EE501 /* Pods-knigiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.knigiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knigi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/knigi";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		8399E5182E0AC1BA00B67D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305B4F573415ABE39C2C3D74 /* Pods-knigiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.knigiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knigi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/knigi";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		8399E51A2E0AC1BA00B67D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C55795DAC3A8FC698AD0C2 /* Pods-knigi-knigiUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.knigiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = knigi;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		8399E51B2E0AC1BA00B67D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BC655E55A6ECA780725D50 /* Pods-knigi-knigiUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YUAMGN57C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.knigiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = knigi;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8399E4EC2E0AC1B900B67D54 /* Build configuration list for PBXProject "knigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8399E5112E0AC1BA00B67D54 /* Debug */,
+				8399E5122E0AC1BA00B67D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8399E5132E0AC1BA00B67D54 /* Build configuration list for PBXNativeTarget "knigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8399E5142E0AC1BA00B67D54 /* Debug */,
+				8399E5152E0AC1BA00B67D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8399E5162E0AC1BA00B67D54 /* Build configuration list for PBXNativeTarget "knigiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8399E5172E0AC1BA00B67D54 /* Debug */,
+				8399E5182E0AC1BA00B67D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8399E5192E0AC1BA00B67D54 /* Build configuration list for PBXNativeTarget "knigiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8399E51A2E0AC1BA00B67D54 /* Debug */,
+				8399E51B2E0AC1BA00B67D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8399E4E92E0AC1B900B67D54 /* Project object */;
+}

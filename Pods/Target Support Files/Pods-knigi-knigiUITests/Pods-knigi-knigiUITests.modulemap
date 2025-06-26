@@ -1,0 +1,6 @@
+framework module Pods_knigi_knigiUITests {
+  umbrella header "Pods-knigi-knigiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

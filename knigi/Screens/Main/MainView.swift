@@ -1,0 +1,60 @@
+//
+//  MainView.swift
+//  knigi
+//
+//  Created by Polina Polukhina on 24.06.2025.
+//
+
+import SwiftUI
+
+struct MainView: View {
+
+	@StateObject private var viewModel = MainViewModel()
+	@State private var showSearch = false
+
+    var body: some View {
+		ZStack(alignment: .bottomTrailing) {
+			Form {
+				Section {
+					CurrentlyReadingView()
+				}
+				.listRowInsets(EdgeInsets())
+				.listRowBackground(Color.clear)
+				
+				Section("Книжные клубы") {
+					ScrollView {
+						LazyVStack(alignment: .leading) {
+							ForEach(viewModel.someFiltered, id: \.self) { i in
+								Text(i)
+							}
+						}
+					}
+				}
+			}
+			.navigationTitle("Мои клубы")
+			.searchable(text: $viewModel.searchText)
+
+			Button {
+				showSearch = true
+			} label: {
+				Text("+")
+					.font(.system(size: 50))
+					.minimumScaleFactor(0.01)
+					.foregroundStyle(Color(UIColor(hex: "#3A3A3A") ?? .blue))
+			}
+			.frame(width: 70, height: 70)
+			.background(Color(UIColor(hex: "#FAF7F0") ?? .clear))
+			.cornerRadius(40)
+			.padding(.trailing, 25)
+			.sheet(isPresented: $showSearch) {
+				SearchView()
+			}
+		}
+    }
+}
+
+#Preview {
+	NavigationStack {
+		MainView()
+	}
+}
