@@ -25,8 +25,6 @@ struct MainView: View {
 					BookClubListView(viewModel: .init(bookClubList: viewModel.bookClubList))
 				}
 			}
-			.navigationTitle("Мои клубы")
-			.searchable(text: $viewModel.searchText)
 
 			Button {
 				showSearch = true
@@ -44,6 +42,8 @@ struct MainView: View {
 				SearchView()
 			}
 		}
+		.navigationTitle("Мои клубы")
+//		.searchable(text: $viewModel.searchText)
     }
 }
 

@@ -24,8 +24,8 @@ struct BookClubsView: View {
 				Text("Создать новый клуб")
 			}
 			.defaultStyle()
-			.padding(.trailing, 20)
-			.padding(.leading, 120)
+			.padding([.trailing, .bottom], 20)
+			.padding(.leading, 100)
 		}
 		.navigationTitle("Мои клубы")
     }
