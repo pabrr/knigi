@@ -39,11 +39,11 @@ struct CurrentlyReadingView: View {
 				// update
 			} label: {
 				Text("Я сегодня читала")
-					.foregroundStyle(Color(UIColor(hex: "#3A3A3A") ?? .blue))
+					.foregroundStyle(Color(UIColor.textColor))
 			}
 			.padding(.horizontal, 16)
 			.frame(height: 44)
-			.background(Color(UIColor(hex: "#FAF7F0") ?? .clear))
+			.background(Color(UIColor.secondary))
 			.cornerRadius(15)
 			.padding(.trailing, 20)
 		}

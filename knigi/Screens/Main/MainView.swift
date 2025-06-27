@@ -34,10 +34,10 @@ struct MainView: View {
 				Text("+")
 					.font(.system(size: 50))
 					.minimumScaleFactor(0.01)
-					.foregroundStyle(Color(UIColor(hex: "#3A3A3A") ?? .blue))
+					.foregroundStyle(Color(UIColor.textColor))
 			}
 			.frame(width: 70, height: 70)
-			.background(Color(UIColor(hex: "#FAF7F0") ?? .clear))
+			.background(Color(UIColor.secondary))
 			.cornerRadius(40)
 			.padding(.trailing, 25)
 			.sheet(isPresented: $showSearch) {

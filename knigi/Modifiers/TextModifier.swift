@@ -47,7 +47,7 @@ struct TextModifier: ViewModifier {
 
 		return content
 			.font(.system(size: fontSize, weight: fontWeight, design: .rounded))
-			.foregroundStyle(Color(UIColor(hex: "#3A3A3A") ?? .black))
+			.foregroundStyle(Color(UIColor.textColor))
 	}
 
 }

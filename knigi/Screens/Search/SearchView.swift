@@ -32,7 +32,7 @@ struct SearchView: View {
 					.resizable()
 					.padding(6)
 					.frame(width: 30, height: 30)
-					.foregroundStyle(Color(UIColor(hex: "#3A3A3A") ?? .blue))
+					.foregroundStyle(Color(UIColor.textColor))
 			})
 		}
     }

@@ -26,7 +26,7 @@ struct DefaultButton: ViewModifier {
 
 		switch style {
 		case .primary:
-			backgroundColor = Color(UIColor(hex: "#FF9F1C")?.withAlphaComponent(0.6) ?? .clear)
+			backgroundColor = Color(UIColor.primary)
 			hasBorder = false
 		case .secondary:
 			backgroundColor = .clear
@@ -35,7 +35,7 @@ struct DefaultButton: ViewModifier {
 
 		return content
 			.frame(maxWidth: .infinity)
-			.foregroundStyle(Color(UIColor(hex: "#3A3A3A") ?? .blue))
+			.foregroundStyle(Color(UIColor.textColor))
 			.frame(height: 44)
 			.padding(.horizontal, 50)
 			.background(backgroundColor)
@@ -43,7 +43,7 @@ struct DefaultButton: ViewModifier {
 			.overlay(
 				hasBorder ?
 				RoundedRectangle(cornerRadius: 20)
-					.stroke(Color(UIColor(hex: "#FF9F1C") ?? .blue))
+					.stroke(Color(UIColor.primaryVibrant))
 				:
 					nil
 			)

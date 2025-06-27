@@ -16,7 +16,7 @@ struct DefaultTextField: ViewModifier {
 			.padding(.horizontal, 15)
 			.overlay(
 				RoundedRectangle(cornerRadius: 20)
-					.stroke(Color(UIColor(hex: "#FF9F1C") ?? .blue))
+					.stroke(Color(UIColor.primaryVibrant))
 			)
 	}
 

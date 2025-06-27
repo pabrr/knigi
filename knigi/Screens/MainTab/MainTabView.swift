@@ -29,7 +29,7 @@ struct MainTabView: View {
 							Label("Main", systemImage: "1.circle")
 						}
 				case .clubs:
-					BookClubView()
+					BookClubsView()
 						.tabItem {
 							Label("Clubs", systemImage: "2.circle")
 						}
@@ -48,7 +48,7 @@ struct MainTabView: View {
 				}
 			}
 		}
-    }
+	}
 }
 
 #Preview {

@@ -32,4 +32,8 @@ final class BookClubViewModel: ObservableObject {
 		]
 	}
 
+	func createNewClub() {
+		
+	}
+
 }
