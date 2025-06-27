@@ -13,7 +13,7 @@ struct BookClubsView: View {
 
 	var body: some View {
 		ZStack(alignment: .bottomTrailing) {
-			BookClubListView(viewModel: .init(bookClubList: viewModel.bookClubList))
+			BookClubListView(bookClubList: $viewModel.bookClubList)
 				.onAppear {
 					viewModel.viewDidAppear()
 				}

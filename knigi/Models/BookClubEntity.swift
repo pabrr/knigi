@@ -19,6 +19,6 @@ struct BookClubEntity {
 	let description: String
 	let createdAt: Date
 	let updatedAt: Date
-	let ownerId: String
+	var ownerId: String
 	let state: BookClubState
 }

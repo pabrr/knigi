@@ -10,7 +10,7 @@ import SwiftUI
 struct BookClubItemView: View {
 
 	@EnvironmentObject private var router: Router
-	@StateObject var viewModel: BookClubItemViewModel
+	@Binding var item: BookClubEntity
 
     var body: some View {
 		HStack(spacing: 12) {
@@ -20,12 +20,12 @@ struct BookClubItemView: View {
 				.frame(width: 100, height: 130) // ratio ?
 
 			VStack(alignment: .leading, spacing: 8) {
-				Text(viewModel.item.title)
+				Text($item.wrappedValue.title)
 					.defaultStyle(.primaryBold)
 					.fixedSize(horizontal: false, vertical: true)
 
 				HStack {
-					Text("Владелец: \(viewModel.item.ownerId)")
+					Text("Владелец: \($item.wrappedValue.ownerId)")
 						.defaultStyle()
 				}
 
@@ -37,6 +37,8 @@ struct BookClubItemView: View {
 					.defaultStyle(.secondary)
 					.fixedSize(horizontal: false, vertical: true)
 			}
+
+			Spacer()
 		}
 		.frame(height: 130)
 		.onTapGesture {
@@ -46,7 +48,7 @@ struct BookClubItemView: View {
 }
 
 #Preview {
-	BookClubItemView(viewModel: .init(item: .init(
+	BookClubItemView(item: Binding<BookClubEntity>.constant(.init(
 		id: "",
 		title: "Мой личный книжный клуб",
 		description: "",

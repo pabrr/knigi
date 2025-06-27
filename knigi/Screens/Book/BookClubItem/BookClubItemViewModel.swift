@@ -7,12 +7,12 @@
 
 import Foundation
 
-final class BookClubItemViewModel: ObservableObject {
-
-	@Published var item: BookClubEntity
-
-	init(item: BookClubEntity) {
-		self.item = item
-	}
-
-}
+//final class BookClubItemViewModel: ObservableObject {
+//
+//	@Published var item: BookClubEntity
+//
+//	init(item: BookClubEntity) {
+//		self.item = item
+//	}
+//
+//}

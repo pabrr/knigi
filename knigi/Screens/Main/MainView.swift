@@ -22,7 +22,7 @@ struct MainView: View {
 				.listRowBackground(Color.clear)
 				
 				Section("Книжные клубы") {
-					BookClubListView(viewModel: .init(bookClubList: viewModel.bookClubList))
+					BookClubListView(bookClubList: $viewModel.bookClubList)
 				}
 			}
 
@@ -44,6 +44,9 @@ struct MainView: View {
 		}
 		.navigationTitle("Мои клубы")
 //		.searchable(text: $viewModel.searchText)
+		.onFirstAppear {
+			viewModel.viewDidAppear()
+		}
     }
 }
 
