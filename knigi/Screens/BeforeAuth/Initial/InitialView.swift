@@ -9,19 +9,16 @@ import SwiftUI
 
 struct InitialView: View {
 
-	@StateObject var viewModel: InitialViewModel = .init()
+	@EnvironmentObject var auth: Auth
 
 	var body: some View {
 		VStack {
-			switch viewModel.state {
+			switch auth.state {
 			case .notAuthorized:
-				LoginView(state: $viewModel.state)
+				LoginView()
 			case .loggedIn:
 				MainTabView()
 			}
-		}
-		.onAppear {
-			viewModel.viewDidAppear()
 		}
     }
 }

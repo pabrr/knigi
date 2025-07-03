@@ -11,7 +11,7 @@ struct LoginView: View {
 
 	@StateObject private var viewModel: LoginViewModel = .init()
 
-	@Binding var state: InitialViewModel.InitialState
+	@EnvironmentObject var auth: Auth
 	@State var presentStartRegistration: Bool = false
 
 	@State private var showingSheet = false
@@ -41,7 +41,7 @@ struct LoginView: View {
 					Button {
 						viewModel.didTapLogin(didFinishLogin: { isSuccess in
 							if isSuccess {
-								state = .loggedIn
+								auth.login()
 							} else {
 								presentStartRegistration = true
 							}
@@ -65,12 +65,12 @@ struct LoginView: View {
 			}
 		}
 		.sheet(isPresented: $showingSheet) {
-			RegistrationView(email: viewModel.email, password: viewModel.password, state: $state)
+			RegistrationView(email: viewModel.email, password: viewModel.password)
 		}
     }
 
 }
 
 #Preview {
-	LoginView(state: Binding<InitialViewModel.InitialState>.constant(.notAuthorized))
+	LoginView()
 }

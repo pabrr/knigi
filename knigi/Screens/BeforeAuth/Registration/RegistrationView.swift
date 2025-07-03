@@ -10,11 +10,10 @@ import SwiftUI
 struct RegistrationView: View {
 
 	@StateObject var viewModel: RegistrationViewModel
-	@Binding var state: InitialViewModel.InitialState
+	@EnvironmentObject var auth: Auth
 
-	init(email: String, password: String, state: Binding<InitialViewModel.InitialState>) {
+	init(email: String, password: String) {
 		_viewModel = StateObject(wrappedValue: .init(email: email, password: password))
-		self._state = state
 	}
 
     var body: some View {
@@ -42,7 +41,7 @@ struct RegistrationView: View {
 			Button {
 				viewModel.didTapRegister(didComplete: { isSuccess in
 					if isSuccess {
-						state = .loggedIn
+						auth.login()
 					} else {
 					}
 				})
@@ -56,5 +55,5 @@ struct RegistrationView: View {
 }
 
 #Preview {
-	RegistrationView(email: "some@gmail.com", password: "123", state: Binding<InitialViewModel.InitialState>.constant(.notAuthorized))
+	RegistrationView(email: "some@gmail.com", password: "123")
 }

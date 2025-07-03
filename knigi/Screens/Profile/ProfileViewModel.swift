@@ -20,7 +20,7 @@ final class ProfileViewModel: ObservableObject {
 	}
 
 	func logOut() {
-
+		Auth.shared.logout()
 	}
 
 }
