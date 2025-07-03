@@ -12,7 +12,7 @@ struct InitialView: View {
 	@StateObject var viewModel: InitialViewModel = .init()
 
 	var body: some View {
-		RouterView {
+		VStack {
 			switch viewModel.state {
 			case .notAuthorized:
 				LoginView(state: $viewModel.state)

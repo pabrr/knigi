@@ -19,32 +19,38 @@ struct MainTabView: View {
 		case profile
 	}
 
-    var body: some View {
+	var body: some View {
 		TabView {
 			ForEach(Tabs.allCases) { tab in
 				switch tab {
 				case .main:
-					MainView()
-						.tabItem {
-							Label("Main", systemImage: "1.circle")
-						}
+					RouterView {
+						MainView()
+					}
+					.tabItem {
+						Label("Main", systemImage: "1.circle")
+					}
 				case .clubs:
-					BookClubsView()
-						.tabItem {
-							Label("Clubs", systemImage: "2.circle")
-						}
-
+					RouterView {
+						BookClubsView()
+					}
+					.tabItem {
+						Label("Clubs", systemImage: "2.circle")
+					}
 				case .books:
-					Text("books")
-						.tabItem {
-							Label("Books", systemImage: "3.circle")
-						}
-
+					RouterView {
+						Text("books")
+					}
+					.tabItem {
+						Label("Books", systemImage: "3.circle")
+					}
 				case .profile:
-					ProfileView()
-						.tabItem {
-							Label("Profile", systemImage: "4.circle")
-						}
+					RouterView {
+						ProfileView()
+					}
+					.tabItem {
+						Label("Profile", systemImage: "4.circle")
+					}
 				}
 			}
 		}
@@ -52,5 +58,5 @@ struct MainTabView: View {
 }
 
 #Preview {
-    MainTabView()
+	MainTabView()
 }

@@ -12,7 +12,6 @@ struct BookDetailsView: View {
 	@StateObject var viewModel: BookDetailsViewModel
 
     var body: some View {
-
 		Text(viewModel.title)
 			.navigationTitle("Моя книга")
     }

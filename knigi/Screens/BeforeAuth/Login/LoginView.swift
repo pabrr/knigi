@@ -50,6 +50,7 @@ struct LoginView: View {
 						Text("Войти или зарегистрироваться")
 					}
 					.defaultStyle()
+					.padding(.horizontal, 24)
 				}
 				.padding(.vertical, 50)
 				.alert("Пользователь не найден", isPresented: $presentStartRegistration) {
